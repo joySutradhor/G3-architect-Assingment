@@ -1,0 +1,405 @@
+/* Google font import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root{
+    --primary-color:#FF900E;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Section Styles Start */
+/* nav section styles start */
+
+.wrapper{
+    background-color: #FFF4E7;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
+}
+nav .logo-text{
+    font-size: 25px;
+    font-weight: 700;
+}
+nav ul{
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 18px;
+    color: #424242;
+    font-weight: 500;
+}
+/* nav section styles End */
+
+/* architects-info styles Start */
+
+.architects-info{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.architects-info h2{
+    color:#131313;
+    font-weight: 700;
+    font-size: 20px;
+}
+.architects-info p{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+.primary-btn{
+    background-color: var(--primary-color);
+    color:#fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.banner-img{
+    display: flex;
+    justify-content: center;
+    
+}
+.banner-img img{
+    height: 400px;
+    margin: 50px 0px 100px 0px;
+}
+/* architects-info styles End */
+
+/* Features Section Styles Start */
+.features-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px auto;
+}
+.features-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    width: 30%;
+}
+.features-image img{
+    height: 200px;
+    width: 200px;
+    
+}
+.features-info{
+    width: 30%;
+}
+.feature-one{
+    color: #727272;
+}
+.features-first-text{
+    color: #131313;
+}
+.features-text{
+    color: var(--primary-color);
+}
+.features-info p{
+    font-size: 12px ;
+    font-weight: 400;
+}
+/* Features Section Styles End */
+
+ /* Features Ofers Section styles Start */
+ .offer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+ }
+ .offer-info{
+    width: 40%;
+ }
+ .one h3{
+    border-left:2px solid var(--primary-color) ;
+    font-size: 25px;
+    padding: 0px 0px 0px 20px;
+ }
+ .one p{
+    padding: 10px 0px 10px 20px;
+    font-size: 12px;
+ }
+
+.blog{
+    /* height: 120px; */
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-top: 20px;
+}
+.blog h4{
+    font-size: 16px;
+
+}
+.blog p{
+    font-size: 12px;
+}
+.offers-img{
+    width: 40%;
+   
+}
+.offers-img img{
+    width: 400px;
+}
+
+ .offers-img button{
+    background-color: var(--primary-color);
+    padding: 20px 25px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    position: relative;
+    bottom: 70px;
+ }
+.offers-text{
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* Features Ofers Section styles End */
+/* Facts Section styles Start */
+.some-facts{
+    width: 40%;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+.some-facts h3{
+    font-weight: 600;
+    font-size: 25px;
+}
+.some-facts p{
+    font-size: 12px;
+    color: #727272;
+}
+/* Facts Section styles End */
+/* Adward winnings Styles Start */
+.facts-logo-info{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    gap: 20px;
+}
+
+
+.facts-details{
+ width: 190px;
+ border: 1px solid var(--primary-color);
+ padding: 20px;
+ border-radius: 5px;
+}
+.facts-details:hover{
+    background-color: #ebe8e8;
+}
+.facts-details h2 , p{
+    color: #424242;
+}
+/* Adward winnings Styles End */
+/* Sponspors Section styles start */
+.sponspors{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sponspors h2 {
+    color: #131313;
+}
+.sponspors p{
+    font-size: 14px;
+}
+/* Sponspors Section styles End */
+/* sponsor-logo section styles Start */
+.sponsor-logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.sponsor-logo img {
+    height: 30px;
+}
+/* sponsor-logo section styles End */
+/* footer section styles start */
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #343434;
+    color: white;
+    padding: 20px;
+}
+
+.footer-info a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.footer-info .footer-logo{
+    display: flex;
+    gap: 10px;
+    color: aquamarine;
+    margin-top: 20px;
+
+}
+.footer-info h3{
+    margin-bottom: 20px;
+}
+.footer-info p{
+    color: #ebe8e8;
+    font-size: 12px;
+    
+}
+
+form{
+    border: none;
+    padding: 55px;
+    width: 600px;
+}
+fieldset{
+    padding: 20px;
+}
+fieldset p {
+    margin-bottom: 10px;
+}
+form input[type=text]{
+    padding: 5px;
+    border-radius: 5px;
+    width: 90%;
+    border: none;
+}
+form input[type=email]{
+    padding: 5px;
+    border-radius: 5px;
+    width: 90%;
+    border: none;
+}
+form input[type=button] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.copyright{
+    height: 100px;
+    background-color:#FFF4E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* footer section styles end */
+/* Media Quary Start */
+
+@media only screen and (max-width:576px){
+    *{
+        margin: 0;
+    }
+  
+    nav{
+        flex-direction: column;
+        width: 100%;
+    }
+    nav ul{
+        flex-direction: column;
+        padding: 20px 0px 0px 0px;
+    }
+    .architects-info{
+        margin-top: 0px;
+        width: 50%;
+    }
+    .architects-info p {
+        margin-top: 15px;
+    }
+    .banner-img img{
+        width: 100%;
+        height: 300px;
+
+    }
+    .features-section{
+        flex-direction: column;
+    }
+    .features-image{
+        grid-template-columns: repeat(1 , 1fr);
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .features-info{
+        width: 50%;
+        text-align: center;
+    }
+    .offer-section{
+        flex-direction:column-reverse;
+        margin: 10px;
+    }
+    .offer-info{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    .one h3{
+        font-size: 18px;
+    }
+    .offers-img{
+       display: none;
+    }
+
+
+
+
+
+
+    
+    
+    
+    .some-facts{ 
+        margin: 0 auto;
+    }
+    .some-fact{
+        
+        margin-left: 0px;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        
+    }
+    .sponspors{
+        width: 100%;
+    }
+    .sponsor-logo{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    form{
+        width: 100%;
+    }
+   
+}
+/* Media Quary End */
